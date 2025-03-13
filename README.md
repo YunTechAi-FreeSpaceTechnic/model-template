@@ -9,3 +9,8 @@ git clone --recurse-submodules git@github.com:YunTechAi-FreeSpaceTechnic/model-t
 - 在 `requirements.txt` 新增使用的 library
 
 > 最上層資料夾請盡量只留 `{YOUR_MODEL_NAME}_model.py`
+
+# Update common library
+```sh
+git submodule update common
+```
